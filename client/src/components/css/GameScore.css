@@ -1,0 +1,13 @@
+.GameScore {
+    height: 10%;
+    width: 90%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score {
+    right: 0;
+    font-size: 1.2em;
+}

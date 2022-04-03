@@ -1,0 +1,48 @@
+@import url(fontMaster.css);
+
+.Leaderboard {
+    width: 25%;
+    height: 90%;
+    background-color: #141414;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.Leaderboard-title {
+    margin: 0.5em;
+    font-family: horizonoutlined;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.leaderboard-table {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.name-col {
+    width: 65%;
+    overflow: hidden;
+}
+
+.score-col {
+    height: auto;
+    width: auto;
+}
+
+.leaderboard-score {
+    margin: 0.4em;
+    font-size: 1.2em;
+}
+
+.leaderboard-name {
+    margin: 0.4em;
+    font-size: 1.2em;
+}
+

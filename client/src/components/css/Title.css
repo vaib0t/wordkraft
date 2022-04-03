@@ -1,0 +1,8 @@
+@import url(fontMaster.css);
+
+.Title {
+    margin-top: 1em;
+    font-family: horizonoutlined;
+    font-size: 2.5em;
+    font-weight: 600;
+}

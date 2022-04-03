@@ -1,0 +1,14 @@
+@font-face {
+    font-family: futuraMedium;
+    src: url(../../assets/fonts/futuraMedium.ttf);
+}
+
+@font-face {
+    font-family: horizon;
+    src: url(../../assets/fonts/Horizon.otf) format("opentype");
+}
+
+@font-face {
+    font-family: horizonoutlined;
+    src: url(../../assets/fonts/HorizonOutline.otf) format("opentype");
+}

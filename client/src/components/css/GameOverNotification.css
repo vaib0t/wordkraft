@@ -1,0 +1,46 @@
+.GameOverNotification {
+    position: fixed;
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification {
+    height: 35vh;
+    width: 40vw;
+    background-color: #141414;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notification > .title {
+    margin: 1em;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.notification > .restart {
+    margin: 1.5em;
+    padding: 0.7em;
+    border: 1.5px solid white;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.notification > .restart:hover {
+    background-color: white;
+    color: black;
+}
+
+.notification > .description {
+    text-align: center;
+    word-wrap: normal;
+}
+
